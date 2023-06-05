@@ -1,0 +1,26 @@
+{
+  "name": "cli-app",
+  "version": "1.0.0",
+  "description": "Contacts CLI App",
+  "main": "index.js",
+  "scripts": {
+    "start": "node  index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OksLu/goit-nodejs-hw-01"
+  },
+  "homepage": "https://github.com/OksLu/goit-nodejs-hw-01",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^10.0.1",
+    "nanoid": "^4.0.2"
+  },
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
